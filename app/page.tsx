@@ -26,7 +26,7 @@ export default function Home() {
                         "@type": "IndustrialBusiness", // or LocalBusiness / Organization
                         "name": "Megha Enterprises",
                         "image": "https://www.meghaenterprises.in/megha_logo.png",
-                        "description": "Leading manufacturer of High Voltage Isolators (11kV-132kV) and Electrical line components.",
+                        "description": "Leading manufacturer of High Voltage Isolators (11kV-132kV), Solar Plant Installations, and Industrial Fabrication in Aurangabad.",
                         "url": "https://www.meghaenterprises.in",
                         "telephone": "+919325147803",
                         "email": "info@meghaenterprises.in",
@@ -57,7 +57,8 @@ export default function Home() {
                             "closes": "18:00"
                         },
                         "sameAs": [
-                            "https://www.facebook.com/meghaenterprises",
+                            "https://www.facebook.com/p/Megha-Engineering-Aurangabad-100047026466226",
+                            "https://www.instagram.com/meghaenterprisesc26/",
                             "https://www.linkedin.com/company/megha-enterprises"
                         ]
                     })

@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Phone, Mail, Facebook, Linkedin, Twitter, Menu, X, Search, MessageCircle } from "lucide-react";
+import { Phone, Mail, Facebook, Linkedin, Twitter, Instagram, Menu, X, Search, MessageCircle } from "lucide-react";
 
 const NAV_ITEMS = [
     { name: 'Home', href: '/' },
@@ -39,10 +39,10 @@ export function Header() {
                     </div>
                 </div>
                 <div className="hidden md:flex items-center gap-4">
-                    <div className="flex gap-3">
-                        <Link href="#" className="hover:text-blue-200 transaction-colors"><Facebook size={14} /></Link>
-                        <Link href="#" className="hover:text-blue-200 transaction-colors"><Linkedin size={14} /></Link>
-                        <Link href="#" className="hover:text-blue-200 transaction-colors"><Twitter size={14} /></Link>
+                    <div className="flex gap-4">
+                        <a href="https://www.facebook.com/p/Megha-Engineering-Aurangabad-100047026466226" target="_blank" rel="noopener noreferrer" className="hover:text-blue-200 transition-colors"><Facebook size={14} /></a>
+                        <a href="https://www.instagram.com/meghaenterprisesc26/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-200 transition-colors"><Instagram size={14} /></a>
+                        <a href="https://www.linkedin.com/company/megha-enterprises" target="_blank" rel="noopener noreferrer" className="hover:text-blue-200 transition-colors"><Linkedin size={14} /></a>
                     </div>
                 </div>
             </div>

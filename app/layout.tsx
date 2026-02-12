@@ -24,11 +24,27 @@ const roboto = Roboto({
 export const metadata: Metadata = {
     metadataBase: new URL('https://www.meghaenterprises.in'),
     title: {
-        default: 'Megha Enterprises | High Voltage Electrical Components Manufacturer',
+        default: 'Megha Enterprises | Premier Electrical, Solar & Fabrication Solutions',
         template: '%s | Megha Enterprises'
     },
-    description: 'Leading manufacturer of High Voltage Isolators (11kV-132kV), Air Break Switches, Drop Out Fuses, and Transmission Line Materials in Aurangabad, India. ISO 9001:2015 Certified.',
-    keywords: ['High Voltage Isolators', 'Air Break Switches', 'Drop Out Fuses', 'Transmission Line Materials', 'Electrical Components Manufacturer', 'Aurangabad Engineering', 'Megha Enterprises', 'HT Line Materials', 'DO Fuse', 'Isolators 11kV 33kV'],
+    description: 'Leading manufacturer and service provider for High Voltage Electrical Components (11kV-132kV), Solar Plant Installations, and Industrial Fabrication in Aurangabad. ISO 9001:2015 Certified experts in HT/LT lines and metal structural engineering.',
+    keywords: [
+        'Electricals',
+        'Fabrication',
+        'Solar Plant Installation',
+        'High Voltage Isolators',
+        'Air Break Switches',
+        'Transmission Line Materials',
+        'Aurangabad Engineering',
+        'Solar EPC',
+        'Structural Fabrication',
+        'Megha Enterprises',
+        'Sheet Metal Work',
+        'HT Line Erection',
+        'Electrical Contractors Maharashtra',
+        'Solar Energy Solutions',
+        'Industrial Fabrication Aurangabad'
+    ],
     authors: [{ name: 'Megha Enterprises' }],
     creator: 'Megha Enterprises',
     publisher: 'Megha Enterprises',
@@ -43,8 +59,8 @@ export const metadata: Metadata = {
         apple: '/megha_logo.png',
     },
     openGraph: {
-        title: 'Megha Enterprises | Engineering Power for Tomorrow',
-        description: 'ISO 9001:2015 Certified manufacturer of premium high voltage electrical components. Serving state boards and private contractors since 2004.',
+        title: 'Megha Enterprises | Electrical, Solar & Fabrication Excellence',
+        description: 'ISO 9001:2015 Certified manufacturer of premium high voltage electrical components and solar solutions. Serving state boards and private contractors since 2004.',
         url: 'https://www.meghaenterprises.in',
         siteName: 'Megha Enterprises',
         locale: 'en_IN',
@@ -60,8 +76,8 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Megha Enterprises | High Voltage Solutions',
-        description: 'Reliable HT/LT line components and precision engineering from Aurangabad, Maharashtra.',
+        title: 'Megha Enterprises | Electrical & Solar Solutions',
+        description: 'Reliable HT/LT line components, Solar Power Plants, and precision engineering from Aurangabad, Maharashtra.',
         images: ['/megha_logo.png'],
     },
     robots: {

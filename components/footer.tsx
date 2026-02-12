@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Phone, Mail, MapPin, Facebook, Linkedin, Twitter, Youtube, ExternalLink } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Linkedin, Twitter, Youtube, Instagram, ExternalLink } from 'lucide-react';
 
 export function Footer() {
     const currentYear = new Date().getFullYear();
@@ -19,10 +19,9 @@ export function Footer() {
                             Megha Engineering & Enterprises has been a pioneer in power infrastructure manufacturing since <span className="text-white font-bold">2011</span>. We specialize in high-voltage switchgear, transmission line materials, and custom fabrication.
                         </p>
                         <div className="flex gap-4 pt-4">
-                            <a href="#" className="p-2 bg-gray-800 hover:bg-[#0056b3] text-white transition-colors"><Facebook size={18} /></a>
-                            <a href="#" className="p-2 bg-gray-800 hover:bg-[#0056b3] text-white transition-colors"><Linkedin size={18} /></a>
-                            <a href="#" className="p-2 bg-gray-800 hover:bg-[#0056b3] text-white transition-colors"><Twitter size={18} /></a>
-                            <a href="#" className="p-2 bg-gray-800 hover:bg-red-600 text-white transition-colors"><Youtube size={18} /></a>
+                            <a href="https://www.facebook.com/p/Megha-Engineering-Aurangabad-100047026466226" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 hover:bg-[#0056b3] text-white transition-colors"><Facebook size={18} /></a>
+                            <a href="https://www.instagram.com/meghaenterprisesc26/" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 hover:bg-[#E4405F] text-white transition-colors"><Instagram size={18} /></a>
+                            <a href="https://www.linkedin.com/company/megha-enterprises" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 hover:bg-[#0077b5] text-white transition-colors"><Linkedin size={18} /></a>
                         </div>
                     </div>
 

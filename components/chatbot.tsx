@@ -81,7 +81,7 @@ export function Chatbot() {
         const match = KNOWLEDGE_BASE.find(item =>
             item.keywords.some(keyword => lowerInput.includes(keyword))
         );
-        return match ? match.response : "I'm sorry, I don't have specific information on that. Please contact our team at info@meghenterpises.in or call +91 93251 47803 for detailed inquiries.";
+        return match ? match.response : "I'm sorry, I don't have specific information on that. Please contact our team at info@meghaenterprises.in or call +91 93251 47803 for detailed inquiries.";
     };
 
     const handleSend = (text: string) => {

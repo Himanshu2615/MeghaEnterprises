@@ -27,11 +27,11 @@ export function HeroSection() {
                         ISO 9001:2015 Certified
                     </div>
                     <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-heading mb-6 leading-tight drop-shadow-xl">
-                        Trusted Engineering of <br />
-                        <span className="text-yellow-400">Power Infrastructure</span>
+                        Premier Electrical, Solar & <br />
+                        <span className="text-yellow-400">Fabrication Solutions</span>
                     </h1>
                     <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed font-light border-l-4 border-[#0056b3] pl-4 drop-shadow-md max-w-2xl">
-                        Manufacturing High-Quality Isolators, AB Switches, and Line Materials since 2004. Approved by Major Utilities for Maximum Reliability.
+                        Leading manufacturer of High-Voltage Isolators, Industrial Fabrication, and Solar Infrastructure since 2011. ISO 9001:2015 Certified experts delivering reliability across India.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4">
